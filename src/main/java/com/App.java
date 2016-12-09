@@ -18,22 +18,22 @@ public class App {
 
 	public static int getResult(int money) {
 		int res = 0;
-		if (money<1500) {
+		if (money<=1500) {
 			res+=getOne(money);
 		}
-		if (money>1500&&money<4500) {
+		if (money>1500&&money<=4500) {
 			res+=getTwo(money);
 		}
-		if (money>4500&&money<9000) {
+		if (money>4500&&money<=9000) {
 			res+=getThree(money);
 		}
-		if (money>9000&&money<35000) {
+		if (money>9000&&money<=35000) {
 			res+=getFour(money);
 		}
-		if (money>35000&&money<55000) {
+		if (money>35000&&money<=55000) {
 			res+=getFive(money);
 		}
-		if (money>55000&&money<80000) {
+		if (money>55000&&money<=80000) {
 			res+=getSix(money);
 		}
 		if (money>80000) {
