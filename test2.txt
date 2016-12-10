@@ -1,0 +1,2 @@
+create test2.txt by vim
+dfsdf master stat
